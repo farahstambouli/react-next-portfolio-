@@ -1,0 +1,30 @@
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjusts the height to center the text vertically */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contactText {
+    font-size: 1.5rem;
+    color: #333;
+    max-width: 800px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactText a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .contactText a:hover {
+    text-decoration: underline;
+  }
+  
